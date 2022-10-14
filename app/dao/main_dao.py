@@ -1,7 +1,7 @@
 import json
 
 def get_posts_all():
-    with open('data/data.json', 'r', encoding='utf-8') as file:
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
         return json.load(file)
 
 def get_posts_by_user(user_name):
